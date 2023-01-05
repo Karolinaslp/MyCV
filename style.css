@@ -2,6 +2,10 @@
 
 body {
     margin: 0;
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 1.8em;
+  
   }
   
   article {
@@ -20,19 +24,25 @@ body {
   header {
     padding: 2em;
     text-align: center;
-    /*background-image: url('sciezka');*/
+    background-size: cover;
+    background-image: url('https://raw.githubusercontent.com/ritaly/HTML-CSS-CV-base/master/img/bg.jpg');
+    background-position: center;
+    color: white;
   }
   
   header section {
     margin: 0 auto;
+    max-block-size: 640px;
   }
   
   header img {
-  
+  border-radius: 50%;
+  max-width: 150px;
   }
   
   h1 {
     margin: 1em 0;
+    text-transform: uppercase;
   }
   
   main {
