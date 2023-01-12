@@ -26,13 +26,13 @@ body {
     text-align: center;
     background-size: cover;
     background-image: url('https://raw.githubusercontent.com/ritaly/HTML-CSS-CV-base/master/img/bg.jpg');
-    background-position: center;
+    background-position: fixed;
     color: white;
   }
   
   header section {
     margin: 0 auto;
-    max-block-size: 640px;
+    max-width: 640px;
   }
   
   header img {
@@ -66,7 +66,6 @@ body {
   }
   
   .course .title {
-   
    font-weight: bold;
    color: #509e98;
    -ms-flex: 0 0 33.3%;
@@ -79,6 +78,28 @@ body {
     flex: 0 0 66.6%;
     max-width: 66.6%;
   }
+
+  .course .descrition p {
+    padding-left: 1em;
+  }
+
+  .skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .skills .column {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .skills .column ul, ul.job-description{
+    list-style-type: none;
+  }
+
   
   .school span {
     color: #A7B8BF;
