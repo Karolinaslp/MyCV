@@ -24,7 +24,9 @@ Understanding that practice is key to learning, I decided to challenge myself by
 - FontAwesome5
 
 ## Setup
-My CV is available as a website on GitHub Pages. It can be viewed at: 
+My CV is available as a website on GitHub Pages. It can be viewed at: <br>
+https://karolinaslp.github.io/MyCV/
+
 
 ## Project Status
 Project is: _in progress.
